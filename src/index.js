@@ -13,7 +13,7 @@ import "./functionBased/App.css"
 //this was specified in the homepage property in our package.json
 ReactDOM.render(
   <React.StrictMode>
-    <Router baseName={process.env.PUBLIC_URL}>
+    <Router>
       <TodoContainer />
     </Router>
   </React.StrictMode>,
